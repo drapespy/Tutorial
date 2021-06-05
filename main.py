@@ -1,5 +1,7 @@
 """
 How to use the `requests` module!
+
+Async tutorial with `aiohttp` soon™️
 """
 
 import requests
