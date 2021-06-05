@@ -4,6 +4,8 @@ How to use the `requests` module!
 Async tutorial with `aiohttp` soon™️
 """
 
+# Installation: python3 -m pip install -U requests
+
 import requests
 
 def ascii(text: str):
