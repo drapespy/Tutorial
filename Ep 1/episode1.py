@@ -11,4 +11,8 @@ def ascii(text: str):
     rg = requests.get(f'https://artii.herokuapp.com/make?text={newtext}')
     return rg.text
 
+# Want a one line example?
+def oneline(text: str):
+    return requests.get(f'https://artii.herokuapp.com/make?text={text.replace(" ", "+")}').text
+
 print(ascii("This is an example"))
